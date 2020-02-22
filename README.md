@@ -1,2 +1,2 @@
 # SRAM
-Sram 4T standard cell
+This project contain 4T-SRAM standard cell
