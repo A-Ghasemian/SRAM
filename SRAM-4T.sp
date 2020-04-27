@@ -32,12 +32,14 @@
 ********************************************************************
 *For optimal accuracy, convergence, and runtime
 ***************************************************
-.options POST         AUTOSTOP
+.options POST=2
+.options AUTOSTOP
 .options INGOLD=2     DCON=1
 .options GSHUNT=1e-12 RMIN=1e-15 
 .options ABSTOL=1e-5  ABSVDC=1e-4 
 .options RELTOL=1e-2  RELVDC=1e-2 
 .options NUMDGT=4     PIVOT=13
+.options runlvl=6
 .param   TEMP=27
 ***************************************************
 *Include relevant model files
